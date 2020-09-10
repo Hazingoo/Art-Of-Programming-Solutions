@@ -1,0 +1,44 @@
+Exercises 1.1
+
+Q1.
+Let a variable be equal to A.
+Let variable "A" be equal to the succeeding variable and continue this until the last letter of the array
+Let the "D" variable be equal to the variable that is holding the variable "A"
+
+Q2.
+In the beginning when input values are provided for M and N, there is a possibility that M is greater than N. However after this,
+the variable R which is holding the variable that is from the result of the Modula M and N which must be smaller than the M
+since the result is from the remainder of both M and N and R has to also be smaller than N otherwises it needs to be minused by
+N again since it can be divided again. Moreover, the algorithms continuous swaps M with N and N with R until R is 0, hence M must be larger
+than N after AlgorithmE1.
+
+Q3.
+So in my solution, instead of swapping N with the remainder of the division between M and N, i would swap the M with the remainder. 
+Since if you were to swap it like M <- N <- R, it probably will take a long time. And then after this step, you divide N with M since
+M is the smaller value as proven by Question 2 and then make N be equal to the remainder and if the N or M is equal to 0 return N or M
+which does not equal to 0. Essentially, my logic is that when you modula both M and N, you want to replace the bigger number 
+with the remainder and it will work the same logic as the Euclid algorithm, and as such, repeat this until either value as reached
+to 0.
+
+
+Q4.
+57
+
+Q5.
+The algorithm in AlgorithmE undertakes a mathematical response hence it will terminate once it reaches a value of 0 or below, however with the algorithm that is described in the book, it has indefinite
+amount of steps. Like forexample, what function evaluates that you are Mathematically inclined. The amount of absurdity in this written approach, makes it
+hard to reach an output and as such i believe this algorithm is not effective.
+
+Q6.
+Since M has to be higher than 5 as proven by Q2 and moreover, in the case of the value of M is 29 or anything with it's first digit as 9, the most that N can be is 4.
+29%5 = 4
+5%4 = 1
+4%1 = 0
+I think it will take approximatelly around 3 steps in order to complete this at the least. 
+
+Q7.
+Not too sure about the question but according to Knuth's solution ""In all but a finite number of cases, n > m. And when n > m, the first iteration of Algorithm E merely exchanges these numbers, so Um = Tm + 1."
+I believe that he is implying that since with the case of N > M and that M is known with N varying and when the exchanging occuring of which
+The varying N is equal to M and the fixed M be equal to the varying N. I believe he is trying to imply that If N < M that means Tm = Um however with the N > M
+that would mean Um = Tm
+
